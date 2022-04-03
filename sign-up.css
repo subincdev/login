@@ -1,0 +1,98 @@
+/* Reset CSS */
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  height: 100vh;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+select {
+  border: none;
+}
+
+/* sign-up page */
+
+.logo-title {
+  font-size: 60px;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 300px;
+}
+
+.input-box {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.3);
+  width: 500px;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.sign-up-button {
+  background-color: tomato;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 50px;
+  display: block;
+  width: 300px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 20px auto 30px auto;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.sign-up-button:hover {
+  background-color: #29c79f;
+}
+
+label {
+  display: block;
+}
+
+.user-info {
+  margin: 40px auto;
+  padding: 0 30px;
+}
+
+.user-info > label {
+  font-weight: 800;
+}
+.user-info > input {
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid gray;
+  transition: border-color 0.4s ease-in-out;
+}
+
+.user-info > input:focus {
+  outline: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.last-name {
+  margin-left: 25px;
+}
+
+.gender {
+  width: 127px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
